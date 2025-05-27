@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import './explore.css'
+
 export default function Explore(props) {
     
 
@@ -12,7 +14,7 @@ export default function Explore(props) {
                     <p>Let's face it: if you want to goto space , you might as well genuinely go to outer space and not hover kind of on the edge of it . Well sit back and relax beceause we'll give you a truly out of this world experience!</p>
                 </div>
                 <div className="explore-right">
-                    <button className='btn btn-explore'>EXPLORE</button>
+                   <Link to={"/destination"}><button className='btn btn-explore'>EXPLORE</button></Link> 
                 </div>
             </div>
         </>

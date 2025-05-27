@@ -21,6 +21,11 @@ nav{
     top: 10%;
     left: 6%;
 }
+.ancre{
+    text-decoration: none; 
+    color: white;
+    
+}
 .ancres {
     width: 1000px;
     align-items: center;
