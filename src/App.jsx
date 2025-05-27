@@ -15,15 +15,15 @@ import Vehicle from './pages/Tech/Vehicle'
 
 
 function App() {
-  
+  const[active,setActive]=useState("home")
 
   return (
     <>
       <Routes>
-      <Route path='/' index element={<Home/>}/>
-      <Route path='/destination' element={<Destination/>}/>
-      <Route path='/crew' element={<Crew/>}/>
-      <Route path='/technology'  element={<Tech/>}>
+      <Route path='/' index element={<Home active={active}setactive={setActive}/>}/>
+      <Route path='/destination' element={<Destination active={active}setactive={setActive}/>}/>
+      <Route path='/crew' element={<Crew active={active}setactive={setActive}/>}/>
+      <Route path='/technology'  element={<Tech active={active}setactive={setActive}/>}>
         <Route index element={<Vehicle/>}/>
         <Route path='capsule' element={<Capsule/>}/>
         <Route path='spaceport' element={<Spaceport/>}/>

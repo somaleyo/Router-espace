@@ -4,17 +4,16 @@ import { useEffect, useState } from 'react'
 import Nav from '../components/Nav'
 
 
-export default function Destination(props) {
-    
-const[moon,setMoon]= useState(true)
-const[mars,setMars]= useState(false)
-const[europa,setEuropa]=useState(false)
-const[titan,setTitan]= useState(false)
+export default function Destination({active,setactive}) {
+    useEffect(()=>{
+        setactive("destination")
+    },[])
+    const [actif,setActif]=useState(1)
 
     return(
         <>
             <div className="destination-container">
-                <Nav/>
+                <Nav active={active}setactive={setactive}/>
                 <div className="destination">
                     <h6><span className='num'>01</span> PICK YOUR DESTINATION</h6>
                     <div className="destination-content">
@@ -24,10 +23,10 @@ const[titan,setTitan]= useState(false)
                         </div>
                         <div className="destination-droite">
                             <div className="planete-ancre">
-                                <p className={moon? "planete-active":""}>MOON</p>
-                                <p  className={mars? "planete-active":""}>MARS</p>
-                                <p className={europa? "planete-active":""}>EUROPA</p>
-                                <p className={titan? "planete-active":""}>TITAN</p>
+                                <p className={actif===1? "planete-active":""}>MOON</p>
+                                <p  className={actif===2? "planete-active":""}>MARS</p>
+                                <p className={actif===3? "planete-active":""}>EUROPA</p>
+                                <p className={actif===4? "planete-active":""}>TITAN</p>
 
                             </div>
                             <h1>MOON</h1>
