@@ -1,0 +1,15 @@
+.crew-bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/src/assets/images/assets/crew/background-crew-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80px;
+}
+.crew h6 {
+    
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 4px;
+
+}
