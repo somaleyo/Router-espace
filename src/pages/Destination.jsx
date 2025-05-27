@@ -7,9 +7,9 @@ import Nav from '../components/Nav'
 export default function Destination(props) {
     
 const[moon,setMoon]= useState(true)
-const[mars,setMars]= useState(false)
-const[europa,setEuropa]=useState(false)
-const[titan,setTitan]= useState(false)
+const[mars,setMars]= useState(true)
+const[europa,setEuropa]=useState(true)
+const[titan,setTitan]= useState(true)
 
     return(
         <>
