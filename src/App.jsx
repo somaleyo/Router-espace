@@ -10,6 +10,7 @@ import Error from './pages/Error'
 import Spaceport from './pages/Tech/Spaceport'
 import Capsule from './pages/Tech/Capsule'
 import Vehicle from './pages/Tech/Vehicle'
+import Moon from './pages/Destination/Moon'
 
 
 
@@ -21,7 +22,14 @@ function App() {
     <>
       <Routes>
       <Route path='/' index element={<Home active={active}setactive={setActive}/>}/>
-      <Route path='/destination' element={<Destination active={active}setactive={setActive}/>}/>
+      <Route path='/destination' element={<Destination active={active}setactive={setActive}/>}>
+        <Route index element={<Moon/>}/>
+        <Route path='mars' element={<Mars/>}/>
+        <Route path='europa' element={<Europa/>}/>
+        <Route path='titan' element={<Titan/>}/>
+
+      </Route>
+
       <Route path='/crew' element={<Crew active={active}setactive={setActive}/>}/>
       <Route path='/technology'  element={<Tech active={active}setactive={setActive}/>}>
         <Route index element={<Vehicle/>}/>
