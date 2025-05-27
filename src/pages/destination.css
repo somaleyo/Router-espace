@@ -9,6 +9,7 @@
      font-family: 'barlow condensed';
      font-size: 17px;
      color: rgba(195, 225, 244, 0.882);
+     transition: 0.3s ease;
 }
 .planete-ancre{
     display: flex;
@@ -72,6 +73,11 @@
 }
 .destination-droite{
     margin-top: -35px;
+}
+.planete-ancre p:hover{
+    cursor: pointer;
+    opacity: 0.7;
+  
 }
 .bottom-dest{
     display: flex;

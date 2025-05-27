@@ -34,6 +34,7 @@
 }
 .active-point:hover{
     cursor: pointer;
+    opacity: 0.8;
 }
 .crew-right img{
     width: 350px;
