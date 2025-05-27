@@ -9,6 +9,7 @@ import Tech from './pages/Technology'
 import Error from './pages/Error'
 import Spaceport from './pages/Tech/Spaceport'
 import Capsule from './pages/Tech/Capsule'
+import Vehicle from './pages/Tech/Vehicle'
 
 
 
@@ -24,7 +25,7 @@ function App() {
       <Route path='/crew' element={<Crew/>}/>
       <Route path='/technology'  element={<Tech/>}>
         <Route path='capsule' element={<Capsule/>}/>
-        <Route path='vehicle' element={<Vehicle/>}/>
+        <Route path='vehicule' element={<Vehicle/>}/>
         <Route path='spaceport' element={<Spaceport/>}/>
       </Route>
       
