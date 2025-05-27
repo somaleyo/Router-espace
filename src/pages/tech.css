@@ -1,0 +1,85 @@
+.tech-bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/src/assets/images/assets/technology/background-technology-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tech{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.tech-container{
+    display: flex;
+    gap: 200px;
+}
+.tech h6{
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.tech-text h5{
+    font-family: 'barlow condensed';
+    
+}
+
+.tech-text h2{
+    font-weight:400;
+    font-size: 40px;
+    margin: 0;
+}
+.tech-left{
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+.tech-text h5{
+    color:rgb(195, 225, 244);
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.tech-ancre{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.one   {
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-weight: 500;
+    
+}
+.active-tech{
+       font-size: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-left: 27px;
+    padding-right: 27px;
+    background-color: white;
+    color: black;
+}
+.tech-text{
+    width: 500px;
+}
+.tech-text .texte{
+    line-height: 30px;
+    font-size: 18px;
+    color: rgba(195, 225, 244, 0.8);
+}
+.tech-right img{
+    width: 400px;
+    height:400px;
+    
+}
+.one:hover{
+    cursor: pointer;
+}
+.active-tech:hover{
+    cursor: pointer;
+}
