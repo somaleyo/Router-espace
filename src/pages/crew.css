@@ -13,3 +13,63 @@
     letter-spacing: 4px;
 
 }
+.crew{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.crew-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    gap: 120px;
+  
+}
+.active-point{
+   color: white;
+   font-size: 130px;
+   
+    margin-top: -100px;
+}
+.active-point:hover{
+    cursor: pointer;
+}
+.crew-right img{
+    width: 350px;
+
+    
+}
+
+.crew-left{
+    width:500px;
+}
+.crew-left h4{
+    color: rgb(195, 225, 244);
+    font-weight: 300;
+    font-size: 25px;
+    margin: 0;
+
+}
+.foto{
+    top: 10%;
+}
+.crew-left h3{
+    font-size: 35px;
+    font-weight: 300;
+}
+.crew-left .text{
+    font-size: 18px;
+    color: rgba(195, 225, 244, 0.816);
+    
+}
+.point{
+    font-size: 130px;
+    color: #35383F;
+    margin-top: -100px;
+}
+.point:hover{
+    cursor: pointer;
+}
+
+
