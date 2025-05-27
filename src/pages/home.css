@@ -1,0 +1,14 @@
+.home-container{
+    width: 115vw;
+    height: 100vh;
+    object-fit: cover;
+    background-image: url('../assets/images/assets/home/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
