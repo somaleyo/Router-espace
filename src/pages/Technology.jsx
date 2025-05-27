@@ -18,7 +18,7 @@ const[trois,setTrois]=useState(false)
                     <div className="tech-container">
                         <div className="tech-left">
                             <div className="tech-ancre">
-                             <Link to="vehicule" className={one? "active-tech":"one"}> <span>1</span></Link>  
+                             <Link to="/technology" className={one? "active-tech":"one"}> <span>1</span></Link>  
                                 <Link to="spaceport" className={two? "active-tech":"one"}><span>2</span></Link>
                                 <Link to="capsule" className={trois? "active-tech":"one"}><span>3</span></Link>
                             </div>

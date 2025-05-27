@@ -24,8 +24,8 @@ function App() {
       <Route path='/destination' element={<Destination/>}/>
       <Route path='/crew' element={<Crew/>}/>
       <Route path='/technology'  element={<Tech/>}>
+        <Route index element={<Vehicle/>}/>
         <Route path='capsule' element={<Capsule/>}/>
-        <Route path='vehicule' element={<Vehicle/>}/>
         <Route path='spaceport' element={<Spaceport/>}/>
       </Route>
       
