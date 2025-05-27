@@ -32,8 +32,13 @@
     gap: 250px;
     flex-direction: row;
 }
-.planete-active{
-
+.planete-active::before{
+    position: absolute;
+    content: '';
+    background-color: white;
+    height: 2px;
+    width: 35px;
+    top: 39%;
 }
 .destination h6{
     font-size: 23px;
