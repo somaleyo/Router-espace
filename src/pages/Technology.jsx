@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Nav from '../components/Nav'
 import './tech.css'
+import { Link } from 'react-router-dom'
 
 export default function Tech(props) {
     
@@ -17,9 +18,9 @@ const[trois,setTrois]=useState(false)
                     <div className="tech-container">
                         <div className="tech-left">
                             <div className="tech-ancre">
-                                <span className={one? "active-tech":"one"}>1</span>
-                                <span className={two? "active-tech":"one"}>2</span>
-                                <span className={trois? "active-tech":"one"}>3</span>
+                             <Link className={one? "active-tech":"one"}> <span>1</span></Link>  
+                                <Link className={two? "active-tech":"one"}><span>2</span></Link>
+                                <Link className={trois? "active-tech":"one"}><span>3</span></Link>
                             </div>
                             <div className="tech-text">
                                 <h5>THE TERMINOLOGY...</h5>
