@@ -21,7 +21,7 @@ body{
 @media (max-width:576px){
     .home-container{
     width: 100%;
-    height:100%;
+    height:700px;
     object-fit: cover;
     background-image: url('../assets/images/assets/home/background-home-mobile.jpg');
     background-repeat: no-repeat;
