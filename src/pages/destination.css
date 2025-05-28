@@ -146,7 +146,7 @@
 
 }
 /* Tablet Responsive (577px to 992px) */
-@media (min-width: 577px) and (max-width: 992px) {
+@media (min-width: 577px) and (max-width: 1090px) {
     .destination-container {
         height: auto;
         min-height: 100vh;
@@ -172,13 +172,16 @@
     .planete {
         width: 300px;
     }
-
+    .planete-ancre{
+        width: 430px;
+        margin-left: 250px;
+    }
     .destination-droite h1 {
         font-size: 60px;
         
     }
     .planete-active::before{
-        top: 38%;
+        top: 35%;
     }
 
     .destination-droite {
