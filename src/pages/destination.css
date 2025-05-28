@@ -58,6 +58,7 @@
 .destination-droite h1{
     font-size: 80px;
     margin: 0;
+    margin-top: 10px;
     font-weight: 300;
     letter-spacing: 5px;
 }
