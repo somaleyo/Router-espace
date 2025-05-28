@@ -11,7 +11,10 @@ import Spaceport from './pages/Tech/Spaceport'
 import Capsule from './pages/Tech/Capsule'
 import Vehicle from './pages/Tech/Vehicle'
 import Moon from './pages/Destination/Moon'
-
+import Mars from './pages/Destination/Mars'
+import Titan from './pages/Destination/Titan'
+import Europa from './pages/Destination/Europa'
+import { Mark } from './pages/Crew/Mark'
 
 
 
@@ -27,7 +30,6 @@ function App() {
         <Route path='mars' element={<Mars/>}/>
         <Route path='europa' element={<Europa/>}/>
         <Route path='titan' element={<Titan/>}/>
-
       </Route>
 
       <Route path='/crew' element={<Crew active={active}setactive={setActive}/>}/>

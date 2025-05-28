@@ -3,6 +3,7 @@ export default function Moon() {
 
     return(
         <>
+        <div className="destination-content">
          <div className="destination-gauche">
                             <img className='planete' src="/src/assets/images/destination/moon.png" alt="" />
 
@@ -19,6 +20,7 @@ export default function Moon() {
                             <p><span className="traveltime">EST.TRAVEL TIME</span></p>
                             <h5>3 DAYS</h5>
                             </div>
+            </div>
             </div>
         </>
     )
