@@ -103,7 +103,8 @@ nav{
         flex-direction: column;
         transition: right 0.3s ease;
         padding-top: 80px;
-        
+        z-index: 2;
+        text-align: center;
         align-items: flex-start;
         justify-content: start;
         display: flex;
