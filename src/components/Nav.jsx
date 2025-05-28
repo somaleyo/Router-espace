@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './nav.css'
 import { Link } from 'react-router-dom'
+import logo from "/src/assets/images/assets/shared/logo.svg"
 
 export default function Nav({active,setactive}) {
     
@@ -14,7 +15,7 @@ export default function Nav({active,setactive}) {
         <>
             <nav>
                 <Link to={"/"} className="link ">
-                    <img className='logo' src="/src/assets/images/assets/shared/logo.svg" alt="" />
+                    <img className='logo' src={logo} alt="" />
                 </Link>  
                 
                 {/* Menu Burger */}
