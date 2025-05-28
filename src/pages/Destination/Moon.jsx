@@ -1,3 +1,4 @@
+import moon from "/src/assets/images/destination/moon.png"
 export default function Moon() {
     
 
@@ -5,7 +6,7 @@ export default function Moon() {
         <>
         <div className="destination-content">
          <div className="destination-gauche">
-                            <img className='planete' src="/src/assets/images/destination/moon.png" alt="" />
+                            <img className='planete' src={moon} alt="" />
 
                         </div>
             <div className="destination-droite">

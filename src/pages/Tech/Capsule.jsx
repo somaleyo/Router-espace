@@ -1,3 +1,4 @@
+import capsule from "/src/assets/images/assets/technology/image-space-capsule-portrait.jpg"
 export default function Capsule(params) {
     
 
@@ -14,7 +15,7 @@ export default function Capsule(params) {
 
                             </div>
                             <div className="tech-right">
-                            <img src="/src/assets/images/assets/technology/image-space-capsule-portrait.jpg" alt="" />
+                            <img src={capsule} alt="" />
                         </div>
 
             </div>

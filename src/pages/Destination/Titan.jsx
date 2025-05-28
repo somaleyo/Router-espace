@@ -1,3 +1,4 @@
+import douglas from "/src/assets/images/destination/Titan.png"
 export default function Titan() {
     
 
@@ -5,7 +6,7 @@ export default function Titan() {
         <>
             <div className="destination-content">
          <div className="destination-gauche">
-                            <img className='planete' src="/src/assets/images/destination/Titan.png" alt="" />
+                            <img className='planete' src={douglas} alt="" />
 
                         </div>
             <div className="destination-droite">

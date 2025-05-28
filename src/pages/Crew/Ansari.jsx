@@ -1,3 +1,4 @@
+import ansari from "/src/assets/images/assets/crew/image-anousheh-ansari.png"
 export function Ansari(params) {
     
 
@@ -14,7 +15,7 @@ export function Ansari(params) {
   fly to the ISS, and the first Iranian in space. </p>
                         </div>
                         <div className="crew-right">
-                        <img className='foto' src="/src/assets/images/assets/crew/image-anousheh-ansari.png" alt="" />
+                        <img className='foto' src={ansari} alt="" />
                         
                         </div>
                     </div>

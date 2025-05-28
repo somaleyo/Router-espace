@@ -3,7 +3,7 @@ import { useState } from 'react'
 import '../tech.css'
 import { Link, Outlet } from 'react-router-dom'
 import Nav from '../../components/Nav'
-
+import space from '/src/assets/images/assets/technology/image-spaceport-portrait.jpg'
 export default function Spaceport(props) {
     
 
@@ -22,7 +22,7 @@ export default function Spaceport(props) {
                             of the Earth’s rotation for launch.</p>
                             </div>
                             <div className="tech-right">
-                            <img src="/src/assets/images/assets/technology/image-spaceport-portrait.jpg" alt="" />
+                            <img src={space} alt="" />
                         </div>
 
             </div>

@@ -1,3 +1,4 @@
+import mark from "/src/assets/images/assets/crew/image-mark-shuttleworth.png"
 export function Mark(params) {
     
 
@@ -13,7 +14,7 @@ export function Mark(params) {
   African to travel to space as a space tourist.</p>
                         </div>
                         <div className="crew-right">
-                        <img className='foto' src="/src/assets/images/assets/crew/image-mark-shuttleworth.png" alt="" />
+                        <img className='foto' src={mark} alt="" />
                         
                         </div>
                     </div>

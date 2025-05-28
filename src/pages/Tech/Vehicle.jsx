@@ -1,3 +1,4 @@
+import vehicle from "/src/assets/images/assets/technology/image-launch-vehicle-portrait.jpg"
 export default function Vehicle(params) {
     
 
@@ -11,7 +12,7 @@ export default function Vehicle(params) {
 
                             </div>
                             <div className="tech-right">
-                            <img src="/src/assets/images/assets/technology/image-launch-vehicle-portrait.jpg" alt="" />
+                            <img src={vehicle} alt="" />
                         </div>
 
             </div>

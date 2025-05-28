@@ -1,3 +1,4 @@
+import mars from "/src/assets/images/destination/mars.png"
 export default function Mars() {
     
 
@@ -5,7 +6,7 @@ export default function Mars() {
         <>
             <div className="destination-content">
          <div className="destination-gauche">
-                            <img className='planete' src="/src/assets/images/destination/mars.png" alt="" />
+                            <img className='planete' src={mars} alt="" />
 
                         </div>
             <div className="destination-droite">

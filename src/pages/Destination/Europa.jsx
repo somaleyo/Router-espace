@@ -1,3 +1,4 @@
+import euro from "/src/assets/images/destination/europa.png"
 export default function Europa() {
     
 
@@ -5,7 +6,7 @@ export default function Europa() {
         <>
             <div className="destination-content">
          <div className="destination-gauche">
-                            <img className='planete' src="/src/assets/images/destination/europa.png" alt="" />
+                            <img className='planete' src={euro} alt="" />
 
                         </div>
             <div className="destination-droite">

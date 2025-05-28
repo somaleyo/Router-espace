@@ -1,3 +1,4 @@
+import victor from "/src/assets/images/assets/crew/image-victor-glover.png"
 export function Victor(params) {
     
 
@@ -14,7 +15,7 @@ export function Victor(params) {
   station systems flight engineer. </p>
                         </div>
                         <div className="crew-right">
-                        <img className='foto' src="/src/assets/images/assets/crew/image-victor-glover.png" alt="" />
+                        <img className='foto' src={victor} alt="" />
                         
                         </div>
                     </div>
