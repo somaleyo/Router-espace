@@ -12,7 +12,7 @@ export default function Nav({active,setactive}) {
     return(
         <>
             <nav>
-                <img className='logo' src="/src/assets/images/assets/shared/logo.svg" alt="" />
+              <Link to={"/"} className="link "><img className='logo' src="/src/assets/images/assets/shared/logo.svg" alt="" /></Link>  
                 <div className="tiret"></div>
                 <div className="ancres">
                 <Link className='ancre' to={"/"}> <p className={active==="home"? "active ancre":"ancre"}><span>00</span> HOME</p></Link>   
