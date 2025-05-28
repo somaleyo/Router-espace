@@ -26,21 +26,7 @@ export default function Spaceport(props) {
                         </div>
 
             </div>
-                <div className="tech spaceport">
-                   
-                    <div className="tech-container">
-                        <div className="tech-left">
-                           
-                            <div className="tech-text">
-                               
 
-                            </div>
-                        </div>
-                        <div className="tech-right">
-                            <img src="/src/assets/images/assets/technology/image-launch-vehicle-portrait.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
         
            
         </>
