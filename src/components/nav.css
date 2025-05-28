@@ -64,3 +64,56 @@ nav{
     cursor: pointer;
     
 }
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.burger-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Styles responsive */
+@media (max-width: 1090px) {
+    .burger-menu {
+        display: block;
+    }
+    nav{
+        display:flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .tiret {
+        display: none;
+    }
+    
+    .ancres {
+        position: fixed;
+        top: 0;
+        right: 100%;
+        height: 100vh;
+        width: 210px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        flex-direction: column;
+        transition: right 0.3s ease;
+        padding-top: 80px;
+        
+        align-items: flex-start;
+        justify-content: start;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ancres-open {
+        right: 67%;
+    }
+    .ancre{
+        margin-left: -10px;
+    }
+}
