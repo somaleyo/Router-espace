@@ -5,20 +5,20 @@ export default function Mars() {
         <>
             <div className="destination-content">
          <div className="destination-gauche">
-                            <img className='planete' src="/src/assets/images/destination/moon.png" alt="" />
+                            <img className='planete' src="/src/assets/images/destination/mars.png" alt="" />
 
                         </div>
             <div className="destination-droite">
-                <h1>MOON</h1>
-                            <p className='text'>See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed.
-                                While you're there, take in some history by visitin the Luna 2 and Apollo 11 landing sites.
-                                
+                <h1>MARS</h1>
+                            <p className='text'>  Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+  the tallest planetary mountain in our solar system. It’s two and a half times 
+  the size of Everest!
                             </p>
                                 <hr  className='dest'/>
                             <div className="bottom-dest">
                             
                             <p><span className="traveltime">EST.TRAVEL TIME</span></p>
-                            <h5>3 DAYS</h5>
+                            <h5>9 MONTHS</h5>
                             </div>
             </div>
             </div>
