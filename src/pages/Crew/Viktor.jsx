@@ -6,12 +6,15 @@ export function Victor(params) {
               <div className="crew">
              <div className="crew-container">
                     <div className="crew-left">
-                        <h4>COMMANDER</h4>
-                        <h3>DOUGLAS HURLEY</h3>
-                        <p className='text'>Douglas Gerald Hurly is and American engineer, former marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2</p>
+                        <h4>PILOT</h4>
+                        <h3>VICTOR GLOVER</h3>
+                        <p className='text'> Pilot on the first operational flight of the SpaceX Crew Dragon to the 
+  International Space Station. Glover is a commander in the U.S. Navy where 
+  he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
+  station systems flight engineer. </p>
                         </div>
                         <div className="crew-right">
-                        <img className='foto' src="/src/assets/images/assets/crew/image-douglas-hurley.png" alt="" />
+                        <img className='foto' src="/src/assets/images/assets/crew/image-victor-glover.png" alt="" />
                         
                         </div>
                     </div>
