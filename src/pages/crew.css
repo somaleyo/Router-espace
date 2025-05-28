@@ -24,7 +24,7 @@
     flex-direction: row;
     margin-top: -10px;
     gap: 120px;
-  
+  margin-left: -130px;
 }
 .active-point{
    color: white;
@@ -44,6 +44,7 @@
 
 .crew-left{
     width:500px;
+    margin-top: 50px;
 }
 .crew-left h4{
     color: rgb(195, 225, 244);
@@ -67,7 +68,12 @@
 .point{
     font-size: 130px;
     color: #35383F;
-    margin-top: -100px;
+}
+
+.crew-ancre{
+     position: absolute;
+    bottom: 10%;
+    left: 11%;
 }
 .point:hover{
     cursor: pointer;

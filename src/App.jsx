@@ -15,6 +15,9 @@ import Mars from './pages/Destination/Mars'
 import Titan from './pages/Destination/Titan'
 import Europa from './pages/Destination/Europa'
 import { Mark } from './pages/Crew/Mark'
+import { Douglas} from './pages/Crew/Douglas'
+import { Victor} from './pages/Crew/Viktor'
+import { Ansari} from './pages/Crew/Ansari'
 
 
 
@@ -32,7 +35,12 @@ function App() {
         <Route path='titan' element={<Titan/>}/>
       </Route>
 
-      <Route path='/crew' element={<Crew active={active}setactive={setActive}/>}/>
+      <Route path='/crew' element={<Crew active={active}setactive={setActive}/>}>
+        <Route index element={<Douglas/>}/>
+        <Route path='victor' element={<Victor/>}/>
+        <Route path='mark' element={<Mark/>}/>
+        <Route path='ansari' element={<Ansari/>}/>
+      </Route>
       <Route path='/technology'  element={<Tech active={active}setactive={setActive}/>}>
         <Route index element={<Vehicle/>}/>
         <Route path='capsule' element={<Capsule/>}/>
