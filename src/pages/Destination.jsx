@@ -24,10 +24,10 @@ export default function Destination({active,setactive}) {
                         </div>
                         <div className="destination-droite">
                             <div className="planete-ancre">
-                              <Link to={'/destination'} className='link' onClick={()=>{setActif(1)}}><p className={actif===1? "planete-active":""}>MOON</p></Link> 
-                              <Link to={'mars'} className='link' onClick={()=>{setactive(2)}}><p  className={actif===2? "planete-active":""}>MARS</p></Link>  
-                             <Link to={"europa"} className="link" onClick={()=>{setactive(3)}}>   <p className={actif===3? "planete-active":""}>EUROPA</p></Link>
-                                <Link to={"titan"} className="link" onClick={()=>{setactive(4)}}><p className={actif===4? "planete-active":""}>TITAN</p></Link>
+                              <Link to={'/destination'} className={actif===1? "planete-active link":"link"} onClick={()=>{setActif(1)}}><p >MOON</p></Link> 
+                              <Link to={'mars'} className={actif===2? "planete-active link":"link"} onClick={()=>{setActif(2)}}><p  >MARS</p></Link>  
+                             <Link to={"europa"} className={actif===3? "planete-active link":"link"} onClick={()=>{setActif(3)}}>   <p >EUROPA</p></Link>
+                                <Link to={"titan"} className={actif===4? "planete-active link":"link"} onClick={()=>{setActif(4)}}><p >TITAN</p></Link>
                             </div>
                             <Outlet/>
                            
