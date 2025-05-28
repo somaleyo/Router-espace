@@ -1,6 +1,6 @@
 .crew-bg{
     width: 100vw;
-    height: 100vh;
+    height: 115vh;
     background-image: url('/src/assets/images/assets/crew/background-crew-desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,6 +63,7 @@
 .crew-left .text{
     font-size: 18px;
     color: rgba(195, 225, 244, 0.816);
+    width: 400px;
     
 }
 .point{

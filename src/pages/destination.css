@@ -146,7 +146,7 @@
 
 }
 /* Tablet Responsive (577px to 992px) */
-@media (min-width: 577px) and (max-width: 1090px) {
+@media (min-width: 577px) and (max-width: 1440px) {
     .destination-container {
         height: auto;
         min-height: 100vh;
