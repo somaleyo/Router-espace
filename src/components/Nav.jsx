@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import './nav.css'
 import { Link } from 'react-router-dom'
 import logo from "/src/assets/images/assets/shared/logo.svg"
-
+import close from "/src/assets/images/assets/shared/icon-close.svg"
+import burger from "/src/assets/images/assets/shared/icon-hamburger.svg"
 export default function Nav({active,setactive}) {
     
     const[open,setOpen]=useState(false)
@@ -21,7 +22,7 @@ export default function Nav({active,setactive}) {
                 {/* Menu Burger */}
                 <div className="burger-menu" onClick={toggleMenu}>
                     <img 
-                        src={open ? "/src/assets/images/assets/shared/icon-close.svg" : "/src/assets/images/assets/shared/icon-hamburger.svg"} 
+                        src={open ? {close} : {burger}} 
                         alt={open ? "Close menu" : "Open menu"}
                         className="burger-icon"
                     />
